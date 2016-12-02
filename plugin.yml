@@ -1,0 +1,8 @@
+name: Report
+main: me.SamB440.Report.Report
+author: SamB440
+version: 5.9.7
+commands:
+  report: 
+     description: Open GUI
+     usage: /report

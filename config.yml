@@ -1,0 +1,37 @@
+# The message that should be shown to a user when they report another user.
+ReportEntry: '&bAdding an entry under the name: '
+# The colour of lines in /report list.
+ListColour: '&9'
+# The error message if a user does not enter a reason.
+NoReasonError: '&c&oPlease enter a reason.'
+# The error message if a log file could not be found.
+LogFileError: '&c&oError: Entry could not be added - Log file not available!'
+# Error message if something odd happens.
+GeneralError: '&cHmm.. It seems like something went wrong here!'
+# No Permission message
+No_Permission: '&cNo permission!'
+# When a player submits a new report, a title is sent to players with the permission 'report.reportview', what should it say?
+ReportTitle: '&aNew report submitted'
+# Same for title, except this is the subtitle.
+ReportSubtitle: 'Use /report list to check!'
+#Message when the player is invalid
+Invalid_Player: '&cThat player is invalid!'
+#Message when the cooldown is active
+Cooldown: '&cYou need to wait until submitting another report!'
+#When reports are toggled on
+Toggled_On: '&aYou toggled reports on!'
+#When reports are toggled off
+Toggled_Off: '&aYou toggled reports off!'
+#When reports are already toggled on
+Already_Toggled_On: '&cYour reports are already toggled on!'
+#When reports are already toggled off
+Already_Toggled_Off: '&cYour reports are already toggled off!'
+# Whether the plugin should check for updates or not
+Update_Check: true
+# MySQL If MySQL is enabled, Reports will be saved on a table!
+MySQL_Enabled: false
+Host: 'localhost'
+Port: 3306
+Database: 'TestDatabase'
+Username: 'user'
+Password: 'pass'
